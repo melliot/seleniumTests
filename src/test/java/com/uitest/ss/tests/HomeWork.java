@@ -19,7 +19,7 @@ public class HomeWork {
 
         driver.get("http://vk.com");
         driver.findElement(By.xpath("//*[@id='quick_email']")).sendKeys("alex.bezkorovainy@gmail.com");
-        driver.findElement(By.xpath("//*[@id='quick_pass']")).sendKeys("alex01001101");
+        driver.findElement(By.xpath("//*[@id='quick_pass']")).sendKeys("xxxxx");
         driver.findElement(By.xpath("//*[@id='quick_login_button']")).click();
         driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 
